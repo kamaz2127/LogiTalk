@@ -1,27 +1,27 @@
-# LogiTalk
+# VENV
 -
-1. Переходимо в папку з LogiTalk
+1.  cd D:\Python\LogiTalk  - змініть шлях на ту папку, де лежать client.py і server.py
+
+2.  python -m venv venv  - створює папку venv для локальних бібліотек
+
+3. Якщо буде помилка
    
-  cd D:\Python\LogiTalk  - змініть шлях на ту папку, де лежать client.py і server.py
+ 1) Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-2. Створюємо віртуальне середовище
+ 2) venv\Scripts\Activate.ps1  - активуємо venv
+
+4. pip install customtkinter pillow
    
-  python -m venv venv  - створює папку venv для локальних бібліотек
+5. python client.py  
 
-3. Активуємо віртуальне середовище
-Для PowerShell (якщо буде помилка про виконання скриптів, виконайте команду нижче)
+#EXE
 
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+1. pip install auto-py-to-exe
 
-  venv\Scripts\Activate.ps1  - активуємо venv
+2. auto-py-to-exe
 
-4. Встановлюємо потрібні бібліотеки
-   
-  pip install customtkinter pillow  - customtkinter для графіки, pillow для зображень
+якщо будуть проблеми з правами 
 
-5. Запускаємо клієнт
-   
-  python client.py  - відкриває вікно LogiTalk
-
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 
