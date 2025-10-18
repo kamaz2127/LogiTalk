@@ -7,20 +7,16 @@ cd D:\Python\LogiTalk  - змініть шлях на ту папку, де ле
 python -m venv venv  - створює папку venv для локальних бібліотек
 
 3. Активуємо віртуальне середовище
-# Для PowerShell (якщо буде помилка про виконання скриптів, виконайте команду нижче)
+Для PowerShell (якщо буде помилка про виконання скриптів, виконайте команду нижче)
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 venv\Scripts\Activate.ps1  - активуємо venv
 
-# 4. Встановлюємо потрібні бібліотеки
+4. Встановлюємо потрібні бібліотеки
 pip install customtkinter pillow  - customtkinter для графіки, pillow для зображень
 
-# 5. Запускаємо клієнт 
+5. Запускаємо клієнт 
 python client.py  - відкриває вікно LogiTalk
-# Вводимо:
-# Ім’я (нік)
-# Хост: 
-# Порт: 8082
-# Натискаємо "Приєднатися"
+
 
 
